@@ -1,0 +1,132 @@
+@media screen and (min-width:1024px)
+{
+li:hover,p:hover
+{
+font-size: 1.5em;
+text-shadow: 6px 10px 10px black;
+color:white;
+}
+
+h1
+{
+	font-size: 2.5em;
+	display: flex;
+	text-align: justify;
+	margin: auto;
+	justify-content: center;
+	text-shadow: 6px 10px 10px black;
+	color:white;
+	float:left;
+	padding: 50px
+	flex-wrap:wrap;
+
+}
+header
+{
+	display:flex;
+	justify-content: center;
+}
+.photo1
+{
+	display: flex;
+	position: absolute;top: 20px ;left: 10% ;
+	flex-wrap:wrap;
+}
+ul
+{
+	display:flex;
+	flex-direction: column;
+	list-style-type: none;
+	color: #BDBDBD ;
+	text-shadow: 3px 5px 5px black;
+	margin: auto;
+	padding: 10px
+}
+.experiences
+{
+	display: flex;
+	position: relative;left: 40%
+}
+
+.formations
+{
+	display: flex;
+	position: relative;left: 40%
+}
+
+li
+{
+	padding: 10px
+}
+
+h2
+{
+	display: flex;
+	text-align: justify;
+	position: relative;left: 50%;
+	color:white;
+	text-shadow: 4px 7px 7px black;
+}
+
+p
+{
+	text-shadow: 3px 5px 5px black;
+	color:#BDBDBD;
+	display: flex;
+	flex-wrap:wrap;
+	text-align: justify;
+	position: relative;left: 40%
+}
+*
+{
+	background: url("202978.jpg") fixed no-repeat;
+}
+}
+@media screen and (max-width:1024px )
+{
+	*
+	{
+		background: url("202978.jpg") fixed no-repeat;
+	}
+	h1
+{
+	font-size: 2.5em;
+	display: flex;
+	text-align: justify;
+	margin: auto;
+	color:white;
+	text-shadow: 6px 10px 10px black;
+	flex-wrap:wrap;
+	padding: 50px
+}
+.photo1
+{
+	display: flex;
+	position: relative;bottom:0px;left: 10%;
+	flex-wrap:wrap;
+}
+ul
+{
+	display:flex;
+	flex-direction: column;
+	list-style-type: none;
+	color:white;
+	text-shadow: 3px 5px 5px black;
+}
+h2
+{
+	display: flex;
+	text-align: justify;
+	position: relative;left: 10%;
+	color:white;
+	text-shadow: 4px 7px 7px black;
+}
+p
+{
+	text-shadow: 3px 5px 5px black;
+	color:white;
+	display: flex;
+	flex-wrap:wrap;
+	text-align: justify;
+}
+}
