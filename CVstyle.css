@@ -1,6 +1,6 @@
-@media screen and (min-width:1024px)
+@media screen and (min-width:1025px)
 {
-li:hover,p:hover
+p:hover, .experiences:hover, .formations:hover
 {
 font-size: 1.5em;
 text-shadow: 6px 10px 10px black;
@@ -17,7 +17,7 @@ h1
 	text-shadow: 6px 10px 10px black;
 	color:white;
 	float:left;
-	padding: 50px
+	padding: 50px;
 	flex-wrap:wrap;
 
 }
@@ -31,8 +31,9 @@ header
 	display: flex;
 	position: absolute;top: 20px ;left: 10% ;
 	flex-wrap:wrap;
+	list-style-type: none;
 }
-ul
+.formations, .experiences
 {
 	display:flex;
 	flex-direction: column;
@@ -40,23 +41,37 @@ ul
 	color: #BDBDBD ;
 	text-shadow: 3px 5px 5px black;
 	margin: auto;
-	padding: 10px
+	padding: 10px;
 }
 .experiences
 {
 	display: flex;
-	position: relative;left: 40%
+	position: relative;left: 40%;
+}
+.contact
+{
+	font-size: 1.2em;
+	display:flex;
+	flex-direction: column;
+	list-style-type: none;
+	color: white;
+	text-shadow: 3px 5px 5px black;
+	margin: auto;
+	padding: 10px;
+	overflow: left;
+	flex-wrap:wrap;
+	position: absolute;top: 50px;left: 15%;
 }
 
 .formations
 {
 	display: flex;
-	position: relative;left: 40%
+	position: relative;left: 40%;
 }
 
 li
 {
-	padding: 10px
+	padding: 10px;
 }
 
 h2
@@ -75,7 +90,7 @@ p
 	display: flex;
 	flex-wrap:wrap;
 	text-align: justify;
-	position: relative;left: 40%
+	position: relative;left: 40%;
 }
 *
 {
@@ -97,13 +112,27 @@ p
 	color:white;
 	text-shadow: 6px 10px 10px black;
 	flex-wrap:wrap;
-	padding: 50px
+	padding: 50px;
 }
 .photo1
 {
 	display: flex;
 	position: relative;bottom:0px;left: 10%;
 	flex-wrap:wrap;
+}
+.contact
+{
+	font-size: 1.2em;
+	display:flex;
+	flex-direction: column;
+	list-style-type: none;
+	color: white;
+	text-shadow: 3px 5px 5px black;
+	margin: auto;
+	padding: 10px;
+	overflow: left;
+	flex-wrap:wrap;
+	position: relative;bottom: 150px ;left:30%;
 }
 ul
 {
@@ -127,6 +156,11 @@ p
 	color:white;
 	display: flex;
 	flex-wrap:wrap;
+	padding: 10px;
 	text-align: justify;
+}
+li
+{
+	padding: 10px;
 }
 }
