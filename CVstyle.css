@@ -1,4 +1,4 @@
-@media screen and (min-width:1025px)
+@media screen and (min-width:1280px)
 {
 p:hover, .experiences:hover, .formations:hover
 {
@@ -56,11 +56,16 @@ header
 	list-style-type: none;
 	color: white;
 	text-shadow: 3px 5px 5px black;
-	margin: auto;
+	margin: 20px;
 	padding: 10px;
-	overflow: left;
+	float: left;
 	flex-wrap:wrap;
-	position: absolute;top: 50px;left: 15%;
+	position: absolute;top: 5%;left: 10%;
+
+}
+.img
+{
+	position: absolute;left: -30%;
 }
 
 .formations
@@ -91,17 +96,19 @@ p
 	flex-wrap:wrap;
 	text-align: justify;
 	position: relative;left: 40%;
+	clear:right;
 }
 *
 {
 	background: url("202978.jpg") fixed no-repeat;
 }
 }
-@media screen and (max-width:1024px )
+@media screen and (max-width:1280px )
 {
 	*
 	{
-		background: url("202978.jpg") center no-repeat;
+		background: url("202978.jpg") fixed no-repeat ;
+		background-position: center;
 	}
 	h1
 {
@@ -130,10 +137,14 @@ p
 	color: white;
 	text-shadow: 3px 5px 5px black;
 	margin: auto;
-	padding: 10px;
+	padding: 50px;
 	overflow: left;
 	flex-wrap:wrap;
-	position: relative;bottom: 150px ;left:30%;
+	position: relative;bottom: 0% ;left:10%;
+}
+.img
+{
+	position: absolute;bottom: 0%;left: -10%;
 }
 ul
 {
