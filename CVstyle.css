@@ -101,7 +101,7 @@ p
 {
 	*
 	{
-		background: url("202978.jpg") fixed no-repeat;
+		background: url("202978.jpg") fixed;
 	}
 	h1
 {
@@ -119,6 +119,7 @@ p
 	display: flex;
 	position: relative;bottom:0px;left: 10%;
 	flex-wrap:wrap;
+	position: relative;bottom: 0px ;left:10%;
 }
 .contact
 {
