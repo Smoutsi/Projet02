@@ -1,6 +1,6 @@
 @media screen and (min-width:1280px)
 {
-.experiences:hover, .formations:hover
+.experiences:hover, .formations:hover, .Capacitée:hover
 {
 font-size: 1.5em;
 text-shadow: 6px 10px 10px black;
@@ -17,7 +17,7 @@ h1
 	text-shadow: 6px 10px 10px black;
 	color:white;
 	float:left;
-	padding: 50px;
+	padding: 20px;
 	flex-wrap:wrap;
 
 }
@@ -137,6 +137,16 @@ h2
 	flex-wrap:wrap;
 	position: absolute;top: 45%;left: 5%;
 	width: 20%;
+}
+.Capacitée
+{
+	display: flex;
+	position: relative;left: 40%;
+	flex-direction: column;
+	list-style-type: none;
+	color: #BDBDBD ;
+	text-shadow: 3px 5px 5px black;
+	margin: auto;
 }
 }
 @media screen and (max-width:1280px )
