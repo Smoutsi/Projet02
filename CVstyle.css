@@ -475,7 +475,7 @@
 		list-style-type: none;
 	}
 }
-@media screen and (max-width:1080px )
+@media screen and (max-width:1080px )and (min-width: 800px)
 
 {
 	*
@@ -557,7 +557,7 @@
 	#img
 	{
 		display: flex;
-		position: absolute;left: 2% ;top: 3.3%;
+		position: absolute;left: 2% ;top: 0%;
 		flex-wrap:wrap;
 		list-style-type: none;
 		width: 40px;
@@ -714,6 +714,254 @@
 		color: white;
 		text-shadow: 3px 5px 5px black;
 		font-size: 1.1em;
+		position: absolute;top: 25%;left: -40%;
+		z-index: 3;
+		width: 200%;
+		height: 5%;
+		flex-wrap:wrap;
+		justify-content: center;
+		align-content: center;
+	}
+}
+@media screen and (max-width:800px )
+
+{
+	*
+	{
+		margin:auto;
+		background-color: white;
+		background-position: center;
+		z-index: 0;
+	}
+	li
+	{
+		list-style-type: none;
+	}
+	h1
+	{
+		font-size: 1em;
+		display: flex;
+		text-align: justify;
+		align-content: center;
+		max-height: 3%;
+		margin: auto;
+		position: relative;top: 0%;left: -30%;
+		justify-content: center;
+		width: 180%;
+		text-shadow: 6px 10px 10px black;
+		color:white;
+		float:left;
+		padding: 10px;
+		flex-wrap:wrap;
+		background-color: #4FC3F7;
+		z-index: 2;
+		margin: auto;
+	}
+	.formations
+	{
+		display: flex;
+		position: relative;left: 5%; top: 20%;
+		z-index: 2;
+		flex-wrap: wrap;
+		margin: 2px;
+		padding: 2px;
+		text-align: center;
+
+	}
+	.loisirs
+	{
+		display: flex;
+		position: relative;left: 5%; top: 10%;
+		flex-wrap: wrap;
+		margin: 2px;
+		padding: 2px;
+		z-index: 2;
+		text-align: center;
+	}
+	.Capacitée
+	{
+		display: flex;
+		position: relative;left: 5%; top: 10%;
+		z-index: 3;
+		flex-wrap: wrap;
+		margin: 2px;
+		padding: 2px;
+		text-align: center;
+	}
+	#exp
+	{
+		display: flex;
+		flex-wrap: wrap;
+		list-style-type: none;
+		width: 90%;
+		margin: 5px;
+		padding: 5px;
+		text-align: justify;
+		justify-content: center;
+		flex-direction: column;
+		position: absolute;left: 5%; top: 255%;
+		z-index: 2;
+	}
+	#img
+	{
+		display: flex;
+		position: absolute;left: 2% ;top: 0%;
+		flex-wrap:wrap;
+		list-style-type: none;
+		width: 20px;
+		height: 20px;
+		margin: 2px;
+		padding: 2px;
+		border-radius: 50%;
+		z-index: 3;
+	}
+	.contact
+	{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0%;
+		padding: 1%;
+		text-align: center;
+		width: 300%;
+		height: 20%;
+		position: absolute;left: -40%; top: 582%;
+		z-index: 2;
+		flex-direction: column;
+		list-style-type: none;
+		background-color: #212121;
+		color: #4FC3F7;
+	}
+
+	.contact2
+	{
+
+		background-color: #212121;
+	}
+	#rec
+	{
+		display: flex;
+		background-color: #4FC3F7;
+		color: white;
+		text-shadow: 3px 5px 5px black;
+		font-size: 0.7em;
+		position: absolute;top: 500%;left:-40%;
+		z-index: 3;
+		width: 200%;
+		height: 5%;
+		flex-wrap:wrap;
+		justify-content: center;
+		align-content: center;
+	}
+	#contact
+	{
+		display: flex;
+		background-color: #4FC3F7;
+		color: white;
+		text-shadow: 3px 5px 5px black;
+		font-size: 0.7em;
+		position: absolute;top: 579%;left: -40%;
+		z-index: 3;
+		width: 200%;
+		height: 5%;
+		flex-wrap:wrap;
+		justify-content: center;
+		align-content: center;
+	}
+	#Loisirs
+	{
+		display: flex;
+		background-color: #4FC3F7;
+		color: white;
+		text-shadow: 3px 5px 5px black;
+		font-size: 0.7em;
+		position: absolute;top: 545%;left: -40%;
+		z-index: 3;
+		width: 200%;
+		height: 5%;
+		flex-wrap:wrap;
+		justify-content: center;
+		align-content: center;
+	}
+	#loi
+	{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0%;
+		padding: 5%;
+		text-align: center;
+		justify-content: center;
+		width: 80%;
+		height: 20%;
+		position: absolute;left: 5%; top: 550%;
+		z-index: 2;
+		flex-direction: column;
+		list-style-type: none;
+		background-color: white;
+		color: #4FC3F7;
+	}
+	#exptitre
+	{
+		display: flex;
+		background-color: #4FC3F7;
+		color: white;
+		text-shadow: 3px 5px 5px black;
+		font-size: 0.7em;
+		position: absolute;top: 245%;left: -40%;
+		z-index: 3;
+		width: 200%;
+		height: 5%;
+		flex-wrap:wrap;
+		justify-content: center;
+		align-content: center;
+	}
+	#form
+	{
+		display: flex;
+		flex-wrap: wrap;
+		list-style-type: none;
+		width: 90%;
+		margin: 5px;
+		padding: 4px;
+		text-align: justify;
+		justify-content: center;
+		flex-direction: column;
+		position: absolute;left: 2%; top: 135%;
+		z-index: 2;
+	}
+	#formtitre
+	{
+		display: flex;
+		background-color: #4FC3F7;
+		color: white;
+		text-shadow: 3px 5px 5px black;
+		font-size: 0.7em;
+		position: absolute;top: 125%;left: -40%;
+		z-index: 3;
+		width: 200%;
+		height: 5%;
+		flex-wrap:wrap;
+		justify-content: center;
+		align-content: center;
+	}
+	.moi
+	{
+		display: flex;
+		flex-wrap: wrap;
+		width: 70%;
+		margin: 5px;
+		padding: 5px;
+		text-align: justify;
+		justify-content: center;
+		position: absolute;left: 5%; top: 45%;
+		z-index: 2;
+	}
+	#moi
+	{
+		display: flex;
+		background-color: #4FC3F7;
+		color: white;
+		text-shadow: 3px 5px 5px black;
+		font-size: 0.7em;
 		position: absolute;top: 25%;left: -40%;
 		z-index: 3;
 		width: 200%;
