@@ -227,7 +227,7 @@
 	}
 
 }
-@media screen and (max-width:1300px) and (min-width: 1080px)
+@media screen and (max-width:1300px) and (min-width: 1080px) and (orientation: portrait)
 
 {
 	*
@@ -477,7 +477,7 @@
 		list-style-type: none;
 	}
 }
-@media screen and (max-width:1080px )and (min-width: 800px)
+@media screen and (max-width:1080px )and (min-width: 800px) and (orientation: portrait)
 
 {
 	*
@@ -727,7 +727,7 @@
 		align-content: center;
 	}
 }
-@media screen and (max-width:800px )
+@media screen and (max-width:800px ) and (orientation: portrait)
 
 {
 	*
