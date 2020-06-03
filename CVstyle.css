@@ -91,9 +91,12 @@ header
 }
 #img
 {
-	position: absolute;top: 0%;left: 12.5%;
+	position: absolute;top: 2%;left: 12.5%;
 	background-color: white;
 	z-index: 3;
+	width: 4%;
+	height: 9%;
+	border-radius: 50%;
 }
 
 .formations
@@ -170,19 +173,19 @@ h2
 	width: 33%;
 	height:200%;
 	position: absolute;top: 0%;left: 0%;
-	z-index: 0;
+	z-index: 1;
 }
 #loi
 {
 	display:flex;
-	flex-direction: column;
 	list-style-type: none;
+	flex-direction: row;
 	color: #4FC3F7;
 	margin: 20px;
 	padding: 10px;
 	flex-wrap:wrap;
 	width: 15%;
-	background: rgba(255,255,255,100);
+	background-color: white;
 	z-index: 3;
 	position: absolute;left:5%;top: 100%;
 	justify-content: center;
@@ -193,6 +196,7 @@ h2
 	background-color: white;
 	font-size: 1.1em;
 	width: 120%;
+	z-index: 3;
 }
 #Loisirs
 {
@@ -209,6 +213,12 @@ h2
 	justify-content: center;
 	align-content: center;
 }
+i.fas
+{
+	background-color: white;
+	position:relative;left: 50%;
+}
+
 }
 @media screen and (max-width:1300px )
 
