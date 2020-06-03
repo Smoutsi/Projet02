@@ -94,8 +94,8 @@ header
 	position: absolute;top: 2%;left: 12.5%;
 	background-color: white;
 	z-index: 3;
-	width: 4%;
-	height: 9%;
+	width: 120px;
+	height: 120px;
 	border-radius: 50%;
 }
 
@@ -232,15 +232,15 @@ i.fas
 	}
 h1
 {
-	font-size: 2.5em;
+	font-size: 2em;
 	display: flex;
 	text-align: justify;
 	align-content: center;
 	max-height: 3%;
 	margin: auto;
-	position: relative;top: 0%;left: -10%;
+	position: relative;top: 0%;left: -30%;
 	justify-content: center;
-	width: 150%;
+	width: 180%;
 	text-shadow: 6px 10px 10px black;
 	color:white;
 	float:left;
@@ -301,12 +301,15 @@ h1
 #img
 {
 	display: flex;
-	position: absolute;left: 5% ;top: 2%;
+	position: absolute;left: 2% ;top: 3.3%;
 	flex-wrap:wrap;
 	list-style-type: none;
 	-moz-border-radius: 20px;
+	width: 80px;
+	height: 80px;
 	margin: 5px;
 	padding: 5px;
+	border-radius: 50%;
 	z-index: 3;
 }
 .contact
@@ -381,7 +384,7 @@ h1
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0%;
-	padding: 1%;
+	padding: 5%;
 	text-align: center;
 	justify-content: center;
 	width: 80%;
@@ -419,7 +422,7 @@ h1
 	text-align: justify;
 	justify-content: center;
 	flex-direction: column;
-	position: absolute;left: 5%; top: 80%;
+	position: absolute;left: 2%; top: 80%;
 	z-index: 2;
 }
 #formtitre
