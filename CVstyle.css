@@ -114,6 +114,7 @@
 	{
 		padding: 10px;
 		z-index: 3;
+		list-style-type: none;
 	}
 
 	h2
@@ -468,6 +469,10 @@
 		flex-wrap:wrap;
 		justify-content: center;
 		align-content: center;
+	}
+	li
+	{
+		list-style-type: none;
 	}
 }
 @media screen and (max-width:1080px )
