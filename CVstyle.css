@@ -128,7 +128,6 @@
 	}
 	*
 	{
-		rotate: none;
 		background-color: #212121;
 		z-index: 0;
 	}
@@ -231,7 +230,6 @@
 {
 	*
 	{
-		rotate: none;
 		margin:20px;
 		background-color: white;
 		background-position: center;
@@ -481,7 +479,6 @@
 {
 	*
 	{
-		rotate: none;
 		margin:10px;
 		background-color: white;
 		background-position: center;
@@ -733,7 +730,6 @@
 {
 	*
 	{
-		rotate: none;
 		background-color: white;
 		background-position: center;
 		z-index: 0;
@@ -977,7 +973,6 @@
 {
 	*
 	{
-		rotate: none;
 		margin:auto;
 		background-color: white;
 		background-position: center;
@@ -1002,11 +997,9 @@
 		text-shadow: 6px 10px 10px black;
 		color:white;
 		float:left;
-		padding: auto;
 		flex-wrap:wrap;
 		background-color: #4FC3F7;
 		z-index: 2;
-		margin: auto;
 	}
 	.formations
 	{
@@ -1014,7 +1007,6 @@
 		position: relative;left: 0%; top: 20%;
 		z-index: 2;
 		flex-wrap: wrap;
-		padding: auto;
 		text-align: left;
 
 	}
@@ -1024,7 +1016,6 @@
 		position: relative;left: 5%; top: 10%;
 		flex-wrap: wrap;
 		margin: auto;
-		padding: auto;
 		z-index: 2;
 		text-align: center;
 	}
@@ -1035,7 +1026,6 @@
 		z-index: 3;
 		flex-wrap: wrap;
 		margin: auto;
-		padding: auto;
 		text-align: center;
 	}
 	#exp
@@ -1062,7 +1052,6 @@
 		width: 20px;
 		height: 20px;
 		margin: auto;
-		padding: auto;
 		border-radius: 50%;
 		z-index: 3;
 	}
@@ -1137,7 +1126,6 @@
 		display: flex;
 		flex-wrap: wrap;
 		margin: auto;
-		padding: auto;
 		text-align: center;
 		justify-content: center;
 		width: 80%;
@@ -1172,7 +1160,6 @@
 		list-style-type: none;
 		width: 80%;
 		margin: auto;
-		padding: auto;
 		text-align: justify;
 		justify-content: center;
 		flex-direction: column;
@@ -1201,7 +1188,6 @@
 		font-size: 0.5em;
 		width: 70%;
 		margin: auto;
-		padding: auto;
 		text-align: justify;
 		justify-content: center;
 		position: absolute;left: 5%; top: 193%;
