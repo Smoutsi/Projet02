@@ -250,7 +250,7 @@
 		align-content: center;
 		max-height: 3%;
 		margin: auto;
-		position: absolute;top: 0%;left: -1%;
+		position: absolute;top: 0%;
 		justify-content: center;
 		width: 100%;
 		text-shadow: 6px 10px 10px black;
@@ -265,7 +265,7 @@
 	.formations
 	{
 		display: flex;
-		position: relative;left: 5%; top: 20%;
+		position: relative; top: 20%;
 		z-index: 2;
 		flex-wrap: wrap;
 		margin: 2px;
@@ -277,7 +277,7 @@
 	{
 		display: flex;
 		flex-direction: row;
-		position: relative;left: 5%; top: 10%;
+		position: relative; top: 10%;
 		flex-wrap: wrap;
 		margin: 2px;
 		padding: 2px;
@@ -287,7 +287,7 @@
 	.Capacitée
 	{
 		display: flex;
-		position: relative;left: 5%; top: 10%;
+		position: relative; top: 10%;
 		z-index: 3;
 		flex-wrap: wrap;
 		margin: 2px;
@@ -307,13 +307,13 @@
 		text-align: justify;
 		justify-content: center;
 		flex-direction: column;
-		position: absolute;left: 5%; top: 175%;
+		position: absolute;top: 175%;
 		z-index: 2;
 	}
 	#img
 	{
 		display: flex;
-		position: absolute;left: 2% ;top: 0%;
+		position: absolute;;top: 0%;
 		flex-wrap:wrap;
 		list-style-type: none;
 		width: 40px;
@@ -332,7 +332,7 @@
 		text-align: center;
 		width: 100%;
 		height: 20%;
-		position: absolute;left: -1%; top: 385%;
+		position: absolute; top: 385%;
 		z-index: 2;
 		flex-direction: column;
 		list-style-type: none;
@@ -352,7 +352,7 @@
 		color: white;
 		text-shadow: 3px 5px 5px black;
 		font-size: 1em;
-		position: absolute;top: 400%;left: -1%;
+		position: absolute;top: 400%;
 		z-index: 3;
 		width: 100%;
 		height: 5%;
@@ -367,7 +367,7 @@
 		color: white;
 		text-shadow: 3px 5px 5px black;
 		font-size: 1em;
-		position: absolute;top: 379%;left: -1%;
+		position: absolute;top: 379%;
 		z-index: 3;
 		width: 100%;
 		height: 5%;
@@ -382,7 +382,7 @@
 		color: white;
 		text-shadow: 3px 5px 5px black;
 		font-size: 1em;
-		position: absolute;top: 345%;left: -1%;
+		position: absolute;top: 345%;
 		z-index: 3;
 		width: 100%;
 		height: 5%;
@@ -401,7 +401,7 @@
 		justify-content: center;
 		width: 90%;
 		height: 10%;
-		position: absolute;left: 5%; top: 350%;
+		position: absolute;top: 350%;
 		z-index: 2;
 		flex-direction: column;
 		list-style-type: none;
@@ -415,7 +415,7 @@
 		color: white;
 		text-shadow: 3px 5px 5px black;
 		font-size: 1em;
-		position: absolute;top: 165%;left: -1%;
+		position: absolute;top: 165%;
 		z-index: 3;
 		width: 100%;
 		height: 5%;
@@ -434,7 +434,7 @@
 		text-align: justify;
 		justify-content: center;
 		flex-direction: column;
-		position: absolute;left: 2%; top: 95%;
+		position: absolute;top: 95%;
 		z-index: 2;
 	}
 	#formtitre
@@ -444,7 +444,7 @@
 		color: white;
 		text-shadow: 3px 5px 5px black;
 		font-size: 1em;
-		position: absolute;top: 85%;left: -1%;
+		position: absolute;top: 85%;
 		z-index: 3;
 		width: 100%;
 		height: 5%;
@@ -461,7 +461,7 @@
 		padding: 5px;
 		text-align: justify;
 		justify-content: center;
-		position: absolute;left: 5%; top: 40%;
+		position: absolute;top: 40%;
 		z-index: 2;
 	}
 	#moi
@@ -471,7 +471,7 @@
 		color: white;
 		text-shadow: 3px 5px 5px black;
 		font-size: 1em;
-		position: absolute;top: 25%;left:-1%;
+		position: absolute;top: 25%;
 		z-index: 3;
 		width: 100%;
 		height: 5%;
@@ -504,7 +504,7 @@
 		align-content: center;
 		max-height: 3%;
 		margin: auto;
-		position: absolute;top: 0%;left: 0%;
+		position: absolute;top: 0%;
 		justify-content: center;
 		width: 100%;
 		text-shadow: 6px 10px 10px black;
@@ -519,7 +519,7 @@
 	.formations
 	{
 		display: flex;
-		position: relative;left: 0%; top: 20%;
+		position: relative;top: 20%;
 		z-index: 2;
 		flex-wrap: wrap;
 		margin: 2px;
@@ -531,7 +531,7 @@
 	{
 		display: flex;
 		flex-direction: row;
-		position: relative;left: 0%; top: 10%;
+		position: relative; top: 10%;
 		flex-wrap: wrap;
 		margin: 2px;
 		padding: 2px;
@@ -541,7 +541,7 @@
 	.Capacitée
 	{
 		display: flex;
-		position: relative;left: 0%; top: 10%;
+		position: relative;top: 10%;
 		z-index: 3;
 		flex-wrap: wrap;
 		margin: 2px;
@@ -557,13 +557,13 @@
 		text-align: justify;
 		justify-content: center;
 		flex-direction: column;
-		position: absolute;left: 0%; top: 175%;
+		position: absolute;top: 175%;
 		z-index: 2;
 	}
 	#img
 	{
 		display: flex;
-		position: absolute;left: 2% ;top: 0%;
+		position: absolute;top: 0%;
 		flex-wrap:wrap;
 		list-style-type: none;
 		width: 40px;
@@ -577,8 +577,8 @@
 		flex-wrap: wrap;
 		text-align: center;
 		height: 15%;
-		width: 94.5%;
-		position: absolute;left: 0%; top: 325%;
+		width: 100%;
+		position: absolute;top: 325%;
 		z-index: 2;
 		flex-direction: column;
 		list-style-type: none;
@@ -598,7 +598,7 @@
 		color: white;
 		text-shadow: 3px 5px 5px black;
 		font-size: 0.7em;
-		position: absolute;top: 340%;left: 0%;
+		position: absolute;top: 340%;
 		z-index: 3;
 		width: 100%;
 		height: 5%;
@@ -613,7 +613,7 @@
 		color: white;
 		text-shadow: 3px 5px 5px black;
 		font-size: 0.7em;
-		position: absolute;top: 320%;left: 0%;
+		position: absolute;top: 320%;
 		z-index: 3;
 		width: 100%;
 		height: 5%;
@@ -628,7 +628,7 @@
 		color: white;
 		text-shadow: 3px 5px 5px black;
 		font-size: 0.7em;
-		position: absolute;top: 270%;left: 0%;
+		position: absolute;top: 270%;
 		z-index: 3;
 		width: 100%;
 		height: 5%;
@@ -643,9 +643,9 @@
 		flex-direction: row;
 		text-align: center;
 		justify-content: center;
-		width: 90%;
+		width: 100%;
 		height: 20%;
-		position: absolute;left: 10%; top: 280%;
+		position: absolute;top: 280%;
 		z-index: 2;
 		flex-direction: column;
 		list-style-type: none;
@@ -659,7 +659,7 @@
 		color: white;
 		text-shadow: 3px 5px 5px black;
 		font-size: 0.7em;
-		position: absolute;top: 165%;left: 0%;
+		position: absolute;top: 165%;
 		z-index: 3;
 		width: 100%;
 		height: 5%;
@@ -672,11 +672,11 @@
 		display: flex;
 		flex-wrap: wrap;
 		list-style-type: none;
-		width: 90%;
+		width: 100%;
 		text-align: justify;
 		justify-content: center;
 		flex-direction: column;
-		position: absolute;left: 0%; top: 95%;
+		position: absolute; top: 95%;
 		z-index: 2;
 	}
 	#formtitre
@@ -686,7 +686,7 @@
 		color: white;
 		text-shadow: 3px 5px 5px black;
 		font-size: 0.7em;
-		position: absolute;top: 85%;left: 0%;
+		position: absolute;top: 85%;
 		z-index: 3;
 		width: 100%;
 		height: 5%;
@@ -698,10 +698,10 @@
 	{
 		display: flex;
 		flex-wrap: wrap;
-		width: 70%;
+		width: 100%;
 		text-align: justify;
 		justify-content: center;
-		position: absolute;left: 5%; top: 40%;
+		position: absolute;top: 40%;
 		z-index: 2;
 	}
 	#moi
@@ -711,7 +711,7 @@
 		color: white;
 		text-shadow: 3px 5px 5px black;
 		font-size: 1em;
-		position: absolute;top: 25%;left:0%;
+		position: absolute;top: 25%;
 		z-index: 3;
 		width: 100%;
 		height: 5%;
@@ -750,7 +750,7 @@
 		align-content: center;
 		max-height: 3%;
 		margin: auto;
-		position: absolute;top: 0%;left: 0%;
+		position: absolute;top: 0%;
 		justify-content: center;
 		width: 100%;
 		text-shadow: 6px 10px 10px black;
@@ -765,7 +765,7 @@
 	.formations
 	{
 		display: flex;
-		position: relative;left: 0%; top: 20%;
+		position: relative;top: 20%;
 		z-index: 2;
 		flex-wrap: wrap;
 		text-align: left;
@@ -774,7 +774,7 @@
 	.loisirs
 	{
 		display: flex;
-		position: relative;left: 5%; top: 10%;
+		position: relative;top: 10%;
 		flex-wrap: wrap;
 		margin: auto;
 		z-index: 2;
@@ -783,7 +783,7 @@
 	.Capacitée
 	{
 		display: flex;
-		position: relative;left: 5%; top: 10%;
+		position: relative;top: 10%;
 		z-index: 3;
 		flex-wrap: wrap;
 		margin: auto;
@@ -795,19 +795,20 @@
 		flex-wrap: wrap;
 		font-size: 0.4em;
 		list-style-type: none;
-		width: 80%;
+		width: 100%;
 		margin: auto;
+		max-height: 50%;
 		padding: 10px;
 		text-align: justify;
 		justify-content: center;
 		flex-direction: column;
-		position: absolute;left: -2%; top: 55%;
+		position: absolute;top: 55%;
 		z-index: 2;
 	}
 	#img
 	{
 		display: flex;
-		position: absolute;left: 2% ;top: 0%;
+		position: absolute;top: 0%;
 		flex-wrap:wrap;
 		list-style-type: none;
 		width: 20px;
@@ -825,7 +826,7 @@
 		align-content: center;
 		width: 100%;
 		height: 10%;
-		position: absolute;left: 0%; top: 155%;
+		position: absolute;top: 155%;
 		z-index: 2;
 		flex-direction: column;
 		list-style-type: none;
@@ -844,7 +845,7 @@
 		color: white;
 		text-shadow: 3px 5px 5px black;
 		font-size: 0.7em;
-		position: absolute;top: 110%;left:0%;
+		position: absolute;top: 110%;
 		z-index: 3;
 		width: 100%;
 		height: 5%;
@@ -859,7 +860,7 @@
 		color: white;
 		text-shadow: 3px 5px 5px black;
 		font-size: 0.7em;
-		position: absolute;top: 150%;left: 0%;
+		position: absolute;top: 150%;
 		z-index: 3;
 		width: 100%;
 		height: 5%;
@@ -874,7 +875,7 @@
 		color: white;
 		text-shadow: 3px 5px 5px black;
 		font-size: 0.7em;
-		position: absolute;top: 163%;left: 0%;
+		position: absolute;top: 163%;
 		z-index: 3;
 		width: 100%;
 		height: 5%;
@@ -889,9 +890,9 @@
 		margin: auto;
 		text-align: center;
 		justify-content: center;
-		width: 80%;
+		width: 100%;
 		height: 20%;
-		position: absolute;left: 0%; top: 165%;
+		position: absolute;top: 165%;
 		z-index: 2;
 		flex-direction: row;
 		list-style-type: none;
@@ -905,7 +906,7 @@
 		color: white;
 		text-shadow: 3px 5px 5px black;
 		font-size: 0.7em;
-		position: absolute;top: 45%;left: 0%;
+		position: absolute;top: 45%;
 		z-index: 3;
 		width: 100%;
 		height: 5%;
@@ -919,12 +920,12 @@
 		font-size: 0.4em;
 		flex-wrap: wrap;
 		list-style-type: none;
-		width: 80%;
+		width: 100%;
 		margin: auto;
 		text-align: justify;
 		justify-content: center;
 		flex-direction: column;
-		position: absolute; top: 25%; left: -10%;
+		position: absolute; top: 25%;
 		z-index: 2;
 	}
 	#formtitre
@@ -934,8 +935,7 @@
 		color: white;
 		text-shadow: 3px 5px 5px black;
 		font-size: 0.5em;
-		position: absolute;top: 15%;left: 0%;
-		z-index: 3;
+		position: absolute;top: 15%;
 		width: 100%;
 		height: 5%;
 		flex-wrap:wrap;
@@ -947,11 +947,11 @@
 		display: flex;
 		flex-wrap: wrap;
 		font-size: 0.5em;
-		width: 70%;
+		width: 100%;
 		margin: auto;
 		text-align: justify;
 		justify-content: center;
-		position: absolute;left: 5%; top: 193%;
+		position: absolute;; top: 193%;
 		z-index: 2;
 	}
 	#moi
@@ -961,7 +961,7 @@
 		color: white;
 		text-shadow: 3px 5px 5px black;
 		font-size: 0.7em;
-		position: absolute;top: 185%;left: 0%;
+		position: absolute;top: 185%;
 		z-index: 3;
 		width: 100%;
 		height: 5%;
