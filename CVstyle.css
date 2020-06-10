@@ -1,4 +1,4 @@
-@import url("fontawesome-free-5.13.0-web/scss/font-awesome.scss");
+@import url("fontawesome-free-5.13.0-web/scss/font-awesome.css");
 @media screen and (min-width:1080px)
 {
 	.experiences:hover, .formations:hover, .Capacitée:hover
