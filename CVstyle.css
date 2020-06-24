@@ -8,8 +8,12 @@
 body 
 {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
    	margin: 0;
+    height : 100%;
+    min-height: 79.4em;
+    max-height:300%;
+    justify-content:center;
 }
 h3
 {
@@ -23,6 +27,7 @@ li
 {
 	list-style: none;
 }
+
 .left-content 
 {
     width:100%;
@@ -30,6 +35,8 @@ li
     color:white;
     display: flex;
     flex-direction: column;
+    width: 25%;
+    box-shadow: -20px 10px 40px black;
 }
 
 .loisirs 
@@ -43,11 +50,20 @@ li
   padding-left: 40%;
   padding-right: 40%;
 }
-@media screen and (max-width: 768px)
+.right-content 
+    {
+        padding-left: 20px;
+        box-shadow: 15px 10px 40px black;
+    }
+@media screen and (max-width: 1024px)
 {
 	body
 	{
 		flex-direction:column-reverse;
 		flex-wrap: nowrap;
 	}
+    .left-content
+    {
+        width: 100%;
+    }
 }
