@@ -23,7 +23,6 @@ li
 {
 	list-style: none;
 }
-
 .left-content 
 {
     width:100%;
@@ -43,32 +42,6 @@ li
   border-radius:50%;
   padding-left: 40%;
   padding-right: 40%;
-}
-
-@media screen and (min-width: 768px)
-{
-    html, body 
- { 
-    height : 100%;
-    min-height: 79em;
-    max-height:300%;
- }
-    body 
-    {
-        flex-wrap: nowrap;
-        justify-content:center;
-    }
-    .left-content 
-    {
-        width: 25%;
-        box-shadow: -20px 10px 40px black;
-    }
-
-    .right-content 
-    {
-        padding-left: 20px;
-        box-shadow: 15px 10px 40px black;
-    }
 }
 @media screen and (max-width: 768px)
 {
