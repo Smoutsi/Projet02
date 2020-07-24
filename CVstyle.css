@@ -26,8 +26,8 @@ h3
 li
 {
 	list-style: none;
+    margin: 2%;
 }
-
 .left-content 
 {
     width:100%;
@@ -38,7 +38,35 @@ li
     width: 25%;
     box-shadow: -20px 10px 40px black;
 }
-
+.diplome
+{
+    text-align: justify;
+}
+.loisirs
+{
+    align-content: center;
+    text-align: center;
+}
+i.fas
+{
+    margin: 2%;
+}
+p
+{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    word-spacing:100%;
+}
+.comp
+{
+    text-align: center;
+}
+.dates
+{
+    margin-right: 2%;
+    text-align: left;
+}
 .loisirs 
 {
     margin-bottom: 0;
@@ -55,6 +83,19 @@ li
         padding-left: 20px;
         box-shadow: 15px 10px 40px black;
     }
+#main
+{
+    display: flex;
+    flex-direction: row;
+    margin: 10%;
+}
+.left
+{
+    float: left;
+    display: inline-block;
+    width: 30%;
+}
+
 @media screen and (max-width: 1024px)
 {
 	body
