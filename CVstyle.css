@@ -46,9 +46,11 @@ li
     width: 25%;
     box-shadow: -20px 10px 40px black;
 }
-.diplome
+#diplome
 {
-    text-align: justify;
+	margin-left: 10%;
+	display: flex;
+	width: 100%;
 }
 .loisirs
 {
@@ -65,10 +67,6 @@ p
     margin-right: 5%;
     margin-top: 10%;
     word-spacing:100%;
-}
-.comp
-{
-    text-align: center;
 }
 .dates
 {
@@ -93,22 +91,24 @@ p
     }
 #main
 {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    padding: 10%;
-    margin: 0;
-    justify-content: center;
-    align-content: center;
+	box-sizing: border-box;
+	margin-left: 10%;
 }
 .left
 {
-    float: left;
-    width: 20%;
+	padding-top: 40px;
+	align-items: flex-start;
+	width: 20%;
 }
 .right
 {
-    width: 70%;
+	align-items: flex-start;
+	width: 60%;
+}
+.exppro
+{
+	display: flex;
+	width: 100%;
 }
 @media screen and (max-width: 1024px)
 {
