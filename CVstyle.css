@@ -34,13 +34,13 @@ h2
 section h2
 {
 	border-bottom: 1px #4FC3F7 solid;
-    width: 70%;
+    width: 80%;
     margin-left: 10%;
 }
 header div
 {
 	border-top: 1px #4FC3F7 solid;
-	width: 10%;
+	width: 15%;
 	margin-top: -1%;
 }
 h4
@@ -116,7 +116,7 @@ p
 }
 .right-content 
 {
-	width: 60%;
+	width: 40%;
 	padding-left: 20px;
 	box-shadow: 15px 10px 40px black;
 }
@@ -147,6 +147,22 @@ p
 .location
 {
 	padding-left: 15%;
+}
+.rec
+{
+	width: 100%;
+	font-size: 0.8em;
+	display: flex;
+	margin-left: 10%;
+}
+.recright
+{
+	width: 20%;
+	margin-left: 15%;
+}
+.recleft
+{
+	width: 20%;
 }
 @media screen and (max-width: 1024px)
 {
