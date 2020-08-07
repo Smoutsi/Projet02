@@ -31,6 +31,18 @@ h2
 {
     font-size: 1.8em;
 }
+section h2
+{
+	border-bottom: 1px #4FC3F7 solid;
+    width: 70%;
+    margin-left: 10%;
+}
+header div
+{
+	border-top: 1px #4FC3F7 solid;
+	width: 10%;
+	margin-top: -1%;
+}
 h4
 {
 	font-size: 1.3em;
@@ -75,6 +87,10 @@ i.far
 {
 	margin-right: 5%;
 }
+li i.fas
+{
+	margin: 3%;
+}
 p
 {
     margin-left: 5%;
@@ -100,7 +116,7 @@ p
 }
 .right-content 
 {
-	width: 40%;
+	width: 60%;
 	padding-left: 20px;
 	box-shadow: 15px 10px 40px black;
 }
@@ -110,14 +126,18 @@ p
 }
 .left
 {
-	padding-top: 40px;
-	align-items: flex-start;
+	margin-top: 6%;
+	text-align: center;
 	width: 20%;
 }
 .right
 {
 	align-items: flex-start;
-	width: 60%;
+	width: 100%;
+}
+.right p
+{
+	margin-top: 1%;
 }
 .exppro
 {
@@ -138,5 +158,9 @@ p
     .left-content
     {
         width: 100%;
+    }
+    .right-content
+    {
+    	width: 100%;
     }
 }
